@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.codebind.NegociarDivisas">
+  <grid id="27dc6" binding="pnlNegociarDivisas" layout-manager="GridLayoutManager" row-count="8" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="901" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="cbfa7" class="javax.swing.JLabel" binding="lblPagaras">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pagarás"/>
+        </properties>
+      </component>
+      <component id="20418" class="javax.swing.JLabel" binding="lblRecibirás">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Recibirás"/>
+        </properties>
+      </component>
+      <component id="b4e7e" class="javax.swing.JLabel" binding="lblPesosPorVenta">
+        <constraints>
+          <grid row="5" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e43b3" class="javax.swing.JButton" binding="btnComprar">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="COMPRAR"/>
+        </properties>
+      </component>
+      <component id="5d206" class="javax.swing.JButton" binding="btnVender">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="10" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="VENDER"/>
+        </properties>
+      </component>
+      <component id="89edb" class="javax.swing.JLabel" binding="lblDolar">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dólar:"/>
+        </properties>
+      </component>
+      <component id="465c" class="javax.swing.JLabel" binding="lblDisponibleDolar">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="192c7" class="javax.swing.JLabel" binding="lblDisponiblesCOP">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e92f7" class="javax.swing.JLabel" binding="lblPrecioCompraDolar">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Precio Compra:"/>
+        </properties>
+      </component>
+      <component id="c4175" class="javax.swing.JLabel" binding="lblPrecioDolarCompra">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a02a1" class="javax.swing.JLabel" binding="lblPrecioVentaDolar">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Precio Venta:"/>
+        </properties>
+      </component>
+      <component id="9413a" class="javax.swing.JLabel" binding="lblPrecioDolarVenta">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ca96f" class="javax.swing.JLabel" binding="lblPesosPorCompra">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5698c" class="javax.swing.JLabel" binding="lblNegociarDivisas">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="NEGOCIAR DÓLAR"/>
+        </properties>
+      </component>
+      <component id="ed134" class="javax.swing.JTextField" binding="txtCantidadDivisaCompra">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e2dc" class="javax.swing.JComboBox" binding="comboBoxDivisasCompra">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8ac13" class="javax.swing.JComboBox" binding="comboBoxDivisasVenta">
+        <constraints>
+          <grid row="4" column="10" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="59240" class="javax.swing.JTextField" binding="txtCantidadDivisaVenta">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cf3ca" class="javax.swing.JButton" binding="btnRegresar">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="REGRESAR PRECIOS DIVISAS"/>
+        </properties>
+      </component>
+      <component id="febfb" class="javax.swing.JLabel" binding="lblEuro">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Euro:"/>
+        </properties>
+      </component>
+      <component id="4b526" class="javax.swing.JLabel" binding="lblPrecioCompraEuro">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Precio Compra:"/>
+        </properties>
+      </component>
+      <component id="9c0e0" class="javax.swing.JLabel" binding="lblPrecioVentaEuro">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Precio Venta:"/>
+        </properties>
+      </component>
+      <component id="723af" class="javax.swing.JLabel" binding="lblDisponibleEuro">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7eda3" class="javax.swing.JLabel" binding="lblPrecioEuroCompra">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c3fb1" class="javax.swing.JLabel" binding="lblPrecioEuroVenta">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5fc66" class="javax.swing.JLabel" binding="lblLibra">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Libra:"/>
+        </properties>
+      </component>
+      <component id="2841d" class="javax.swing.JLabel" binding="lblPrecioCompraLibra">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Precio Compra:"/>
+        </properties>
+      </component>
+      <component id="22390" class="javax.swing.JLabel" binding="lblPrecioVentaLibra">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Precio Venta:"/>
+        </properties>
+      </component>
+      <component id="c8c7d" class="javax.swing.JLabel" binding="lblPesosCOP">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pesos COP"/>
+        </properties>
+      </component>
+      <component id="1c18e" class="javax.swing.JLabel" binding="lblDisponibleLibra">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="425f9" class="javax.swing.JLabel" binding="lblPrecioLibraCompra">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d3ca1" class="javax.swing.JLabel" binding="lblPrecioLibraVenta">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
